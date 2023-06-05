@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3F26A32A2E7D02008E2170 /* hip.json in Resources */ = {isa = PBXBuildFile; fileRef = AB3F26A22A2E7D02008E2170 /* hip.json */; };
 		AB9CB30B2A2BD85900CC2A69 /* ShoppingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CB30A2A2BD85900CC2A69 /* ShoppingAppApp.swift */; };
 		AB9CB30D2A2BD85900CC2A69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CB30C2A2BD85900CC2A69 /* ContentView.swift */; };
 		AB9CB30F2A2BD85A00CC2A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9CB30E2A2BD85A00CC2A69 /* Assets.xcassets */; };
 		AB9CB3122A2BD85A00CC2A69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB9CB3112A2BD85A00CC2A69 /* Preview Assets.xcassets */; };
+		AB9CB3192A2BDB1900CC2A69 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CB3182A2BDB1900CC2A69 /* Product.swift */; };
+		AB9CB31B2A2BDC2B00CC2A69 /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9CB31A2A2BDC2B00CC2A69 /* ShoppingList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB3F269C2A2D136D008E2170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AB3F26A22A2E7D02008E2170 /* hip.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hip.json; sourceTree = "<group>"; };
 		AB9CB3072A2BD85900CC2A69 /* ShoppingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CB30A2A2BD85900CC2A69 /* ShoppingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingAppApp.swift; sourceTree = "<group>"; };
 		AB9CB30C2A2BD85900CC2A69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AB9CB30E2A2BD85A00CC2A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB9CB3112A2BD85A00CC2A69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB9CB3182A2BDB1900CC2A69 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AB9CB31A2A2BDC2B00CC2A69 /* ShoppingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		AB9CB3092A2BD85900CC2A69 /* ShoppingApp */ = {
 			isa = PBXGroup;
 			children = (
+				AB3F269C2A2D136D008E2170 /* Info.plist */,
 				AB9CB30A2A2BD85900CC2A69 /* ShoppingAppApp.swift */,
 				AB9CB30C2A2BD85900CC2A69 /* ContentView.swift */,
+				AB9CB3182A2BDB1900CC2A69 /* Product.swift */,
+				AB9CB31A2A2BDC2B00CC2A69 /* ShoppingList.swift */,
+				AB3F26A22A2E7D02008E2170 /* hip.json */,
 				AB9CB30E2A2BD85A00CC2A69 /* Assets.xcassets */,
 				AB9CB3102A2BD85A00CC2A69 /* Preview Content */,
 			);
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB9CB3122A2BD85A00CC2A69 /* Preview Assets.xcassets in Resources */,
+				AB3F26A32A2E7D02008E2170 /* hip.json in Resources */,
 				AB9CB30F2A2BD85A00CC2A69 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +150,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB9CB30D2A2BD85900CC2A69 /* ContentView.swift in Sources */,
+				AB9CB31B2A2BDC2B00CC2A69 /* ShoppingList.swift in Sources */,
 				AB9CB30B2A2BD85900CC2A69 /* ShoppingAppApp.swift in Sources */,
+				AB9CB3192A2BDB1900CC2A69 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = 46XAGWCJPW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = 46XAGWCJPW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShoppingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
