@@ -54,17 +54,16 @@ struct ContentView: View {
         Task {
           try await shopList.saveListItems()
         }
-        //shopList.saveListItems()
       }) {
         Image(systemName: "plus")
       })
     }
-    // MARK: Assignment 3
+    // MARK: Assignment 3 - Alert setup
     .alert("No network connection", isPresented: $showingAlert) {
       Button("OK", role: .cancel) {}
     }
     .listStyle(.plain)
-    // MARK: Assignment 2 Continued
+    // MARK: Assignment 2 Continued - Custom Error Setup
     .task {
       do {
         try await shopList.getProducts()

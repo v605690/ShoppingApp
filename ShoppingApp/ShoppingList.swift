@@ -32,6 +32,7 @@ class ShoppingList: ObservableObject {
     }
   }
 
+  // MARK: NEW save method
   func saveListItems() async throws {
     guard let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first else {
       throw ProductError.badURLRequest
@@ -51,7 +52,7 @@ class ShoppingList: ObservableObject {
       throw ProductError.invalidResponse
     }
   }
-
+  // MARK: OLD save method
   func saveListItems() {
     let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
 
